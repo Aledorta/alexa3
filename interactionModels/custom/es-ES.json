@@ -1,0 +1,82 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "ClueIntent",
+          "samples": [
+            "cual es la pista",
+            "dime la pista",
+            "pista",
+            "Dame la pista"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "answerSlot",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AnswerIntent",
+          "samples": [
+            "se trata de {answerSlot}",
+            "la palabra es {answerSlot}",
+            "es {answerSlot}",
+            "La repuesta es {answerSlot}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "StartIntent",
+          "samples": [
+            "comencemos",
+            "estoy preparado",
+            "preaprado",
+            "listo",
+            "Estoy listo"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "ChangeIntent",
+          "samples": [
+            "siguiente palabra",
+            "siguiente letra",
+            "pasopalabra",
+            "Cambiar de palabra",
+            "Cambiar letra",
+            "Cambiar"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "juego alixed"
+    }
+  }
+}
